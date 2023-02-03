@@ -2,11 +2,12 @@ import "./App.css";
 import Form from "./components/Form/Form";
 import Navbar from "./components/Navbar/Navbar";
 import Posts from "./components/Posts/Posts";
+
 import { useDispatch } from "react-redux";
 import { useState, useEffect } from "react";
 import { getPosts, getPostsBySearch } from "./actions/posts";
 
-function App() {
+function Bulletin() {
   const [currentId, setCurrentId] = useState(null);
   const [search, setSearch] = useState("");
 
@@ -51,4 +52,4 @@ function App() {
   );
 }
 
-export default App;
+export default Bulletin;
