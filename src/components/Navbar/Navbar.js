@@ -71,7 +71,7 @@ export default function Navbar({ search, setSearch, handleSearchSubmit }) {
                       fontSize: "40px",
                     }}
                   >
-                    Galactic.io
+                    Cilica.xyz
                   </a>
                 </div>
                 {/* <div className="hidden sm:flex items-center sm:ml-6">

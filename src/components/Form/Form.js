@@ -127,7 +127,7 @@ const Form = ({ currentId, setCurrentId }) => {
     return (
       <div>
         <div className="text-2xl font-bold flex justify-center mb-6">
-          Welcome to Galactic.io!
+          Welcome to Cilica.xyz!
         </div>
         <div className="text-base flex justify-center mb-6">
           Sign in to enter the bulletin board!
@@ -140,7 +140,7 @@ const Form = ({ currentId, setCurrentId }) => {
     <>
       <div className="w-full text-center">
         <div className="text-2xl font-bold flex justify-center mb-2">
-          Welcome to Galactic.io!
+          Welcome to Cilica.xyz!
         </div>
         <div className="text-base flex justify-center mb-4">
           Share something with the world of web3!
