@@ -74,7 +74,7 @@ export default function Navbar({ search, setSearch, handleSearchSubmit }) {
                     Cilica.xyz
                   </a>
                 </div>
-                <div className="flex-shrink-0 flex items-center">
+                {/* <div className="flex-shrink-0 flex items-center">
                   <a
                     href="/Bulletin"
                     style={{
@@ -86,7 +86,7 @@ export default function Navbar({ search, setSearch, handleSearchSubmit }) {
                   >
                     Bulletin
                   </a>
-                </div>
+                </div> */}
 
                 {/* <div className="hidden sm:flex items-center sm:ml-6">
                   <div className="flex space-x-4">
