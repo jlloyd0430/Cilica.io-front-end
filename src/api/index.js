@@ -2,7 +2,9 @@ import axios from "axios";
 
 // production server/backend endpoint
 // const API = axios.create({ baseURL: "https://weshare-server.vercel.app/" });
-const API = axios.create({ baseURL: "http://localhost:3001" });
+const API = axios.create({
+  baseURL: "https://cilica-io-back-end.onrender.com",
+});
 
 API.interceptors.request.use((req) => {
   if (localStorage.getItem("profile")) {
