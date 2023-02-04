@@ -69,6 +69,7 @@ export default function Navbar({ search, setSearch, handleSearchSubmit }) {
                     style={{
                       color: "white",
                       fontSize: "40px",
+                      fontFamily: "Press Start 2P",
                     }}
                   >
                     Cilica.xyz
