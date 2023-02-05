@@ -33,7 +33,7 @@ const Post = ({ post, setCurrentId }) => {
               : "(Edited " + moment(post.updatedAt).fromNow() + ")"}
           </div>
         </div> */}
-        <p className="text-gray-700 dark:text-gray-100 hidden md:block text-sm lg:text-base">
+        <p className=" flex flex-row justify-between text-gray-700 dark:text-gray-100 lg:text-base">
           {post.message}
         </p>
         <div className="card-actions justify-end">
