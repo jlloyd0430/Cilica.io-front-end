@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 // eslint-disable-next-line no-unused-vars
-import { GoogleLogin, GoogleLogout } from "react-google-login";
+// import { GoogleLogin, GoogleLogout } from "react-google-login";
 import { gapi } from "gapi-script";
 import { useDispatch } from "react-redux";
 import { AUTH } from "../../../constants/actionTypes";
@@ -30,8 +30,8 @@ export default function SignIn({ setShowForm, setFormType }) {
     }
   };
 
-  const googleFailure = () =>
-    console.log("Google Sign In was unsuccessful. Try Again Later");
+  // const googleFailure = () =>
+  //   console.log("Google Sign In was unsuccessful. Try Again Later");
 
   useEffect(() => {
     function start() {
@@ -42,7 +42,7 @@ export default function SignIn({ setShowForm, setFormType }) {
       });
     }
 
-    gapi.load("client:auth2", start);
+    // gapi.load("client:auth2", start);
   }, []);
 
   return (
@@ -121,7 +121,7 @@ export default function SignIn({ setShowForm, setFormType }) {
                 >
                   Login to your account
                 </button>
-                <GoogleLogin
+                {/* <GoogleLogin
                   clientId="252422663262-6k1s6rua8o3q3mhplasfvlc7ttsmf2qh.apps.googleusercontent.com"
                   render={(renderProps) => (
                     <button
@@ -151,7 +151,7 @@ export default function SignIn({ setShowForm, setFormType }) {
                   onSuccess={googleSuccess}
                   onFailure={googleFailure}
                   cookiePolicy="single_host_origin"
-                />
+                /> */}
                 <div className="text-sm font-medium text-gray-500 dark:text-gray-300">
                   Not registered?{" "}
                   <div
